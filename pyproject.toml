@@ -1,0 +1,15 @@
+[project]
+name = "rocketcoach"
+version = "0.1.0"
+description = "Live Rocket League 2v2 coaching overlay for offline RLBot matches"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.scripts]
+rocketcoach = "rocketcoach.app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120

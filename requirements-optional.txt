@@ -1,0 +1,4 @@
+# Optional: Claude post-match debriefs (off unless [llm] provider = "anthropic")
+anthropic==2.3.0
+# Development / tests
+pytest==9.1.1

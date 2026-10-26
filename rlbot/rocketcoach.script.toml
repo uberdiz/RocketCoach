@@ -1,0 +1,7 @@
+# RLBot v5 script definition for Rocket Coach AI.
+# The script only READS game state (no controller input, no state setting).
+[settings]
+agent_id = "rocketcoach/live-coach"
+name = "Rocket Coach AI"
+root_dir = ".."
+run_command = '.venv\Scripts\pythonw.exe -m rocketcoach run --source rlbot'

@@ -1,0 +1,41 @@
+# Offline 2v2: you + a Psyonix All-Star teammate vs two Psyonix All-Star bots, with the coach script attached.
+# Start it with:  .venv\Scripts\python.exe -m rocketcoach launch-match
+# To play against community bots instead, add [[cars]] with config_file pointing to a bot's bot.toml
+# (installed through the RLBot v5 launcher's bot pack).
+[rlbot]
+launcher = "Epic"
+auto_start_agents = true
+wait_for_agents = true
+
+[match]
+game_mode = "Soccar"
+game_map_upk = "Stadium_P"
+skip_replays = true
+start_without_countdown = false
+existing_match_behavior = "Restart"
+enable_rendering = false
+enable_state_setting = false
+auto_save_replay = true
+freeplay = false
+
+[[cars]]
+type = "Human"
+team = 0
+
+[[cars]]
+type = "Psyonix"
+team = 0
+skill = "AllStar"
+
+[[cars]]
+type = "Psyonix"
+team = 1
+skill = "AllStar"
+
+[[cars]]
+type = "Psyonix"
+team = 1
+skill = "AllStar"
+
+[[scripts]]
+config_file = "rocketcoach.script.toml"

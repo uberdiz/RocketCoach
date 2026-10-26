@@ -1,0 +1,45 @@
+# Copy to config.toml and edit. Every key is optional; missing keys use the defaults shown.
+
+[coach]
+min_confidence = 0.55          # hide tips below this confidence
+min_seconds_between_tips = 8.0 # global gap so you can concentrate
+rule_cooldown_seconds = 45.0   # same rule can't repeat sooner
+tip_display_seconds = 6.0
+show_strengths = true
+disabled_categories = []       # any of: defense rotation boost challenge kickoff mechanics offense
+focus = "auto"                 # or one category; "auto" picks from your recent matches
+player_name = ""               # empty = first human car
+
+[overlay]
+x = -1                         # -1 = automatic placement (top-left corner)
+y = -1
+width = 430
+scale = 1.0
+opacity = 0.95
+font_family = "Segoe UI"
+font_size = 13
+show_explanation = true
+show_minimap = true
+hotkey_interact = "ctrl+alt+o"
+hotkey_mute = "ctrl+alt+n"
+hotkey_hide = "ctrl+alt+h"
+hotkey_quit = "ctrl+alt+q"
+
+[voice]
+enabled = false
+rate = 185
+
+[llm]
+provider = "none"              # "anthropic" for an optional Claude debrief after each match
+model = "claude-opus-5-5"      # ~$0.02 per report; "claude-haiku-5-5" is ~$0.0005
+max_requests_per_hour = 10
+monthly_budget_usd = 2.0
+timeout_seconds = 20.0
+
+[data]
+record_telemetry = true
+record_hz = 15.0
+
+[telemetry]
+source = "mock"                # "rlbot" when RLBot starts the app as a script
+analysis_hz = 30.0

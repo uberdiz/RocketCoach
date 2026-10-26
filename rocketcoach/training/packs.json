@@ -1,0 +1,29 @@
+{
+  "_about": "Custom Training pack codes from the prejump.com training-pack database (fetched 2026-10-25). 'verified' is set by `rocketcoach verify-packs`, which fetches each source_url and checks the code and name appear on the page. Never add a code without a source_url.",
+  "packs": [
+    {"code": "6726-51F1-6B0D-9540", "name": "Shadow Defense 101", "creator": "Lazord", "skill": "shadow_defense", "difficulty": "Champion", "shots": 50},
+    {"code": "5CCE-FB29-7B05-A0B1", "name": "[Why You Suck] Shadow Defense", "creator": "ORANGEPIE", "skill": "shadow_defense", "difficulty": "Gold", "shots": 20},
+    {"code": "5ED2-0D32-270A-3266", "name": "Save Consistency", "creator": "Joey", "skill": "saves", "difficulty": "Diamond", "shots": 40},
+    {"code": "776F-E2BB-2993-78D7", "name": "Advanced Goalie", "creator": "Wayprotein", "skill": "saves", "difficulty": "Diamond", "shots": 25},
+    {"code": "6000-A632-72BD-5DE9", "name": "Advanced Goaltending", "creator": "Psyonix", "skill": "saves", "difficulty": "Champion", "shots": 8},
+    {"code": "D7F8-FD53-98D1-DAFE", "name": "Backboard Therapy", "creator": "Wayprotein", "skill": "backboard_defense", "difficulty": "Champion", "shots": 40},
+    {"code": "3ACB-0F53-2775-A956", "name": "Aerial Backboard Saves", "creator": "Lie Algebra Cow", "skill": "backboard_defense", "difficulty": "Champion", "shots": 9},
+    {"code": "0A7E-C7C8-DE7C-28CA", "name": "Advanced Wall Clears", "creator": "Wayprotein", "skill": "wall_play", "difficulty": "Diamond", "shots": 16},
+    {"code": "92E0-1BDD-6BCC-F4D1", "name": "Aerial Control Sequence", "creator": "Wayprotein", "skill": "aerials", "difficulty": "Platinum", "shots": 14},
+    {"code": "71B1-828E-5036-F338", "name": "Aerial Confidence Builder", "creator": "Wayprotein", "skill": "aerials", "difficulty": "Diamond", "shots": 16},
+    {"code": "6CE4-7D20-7BD5-C800", "name": "Advanced Aerials", "creator": "Wayprotein", "skill": "aerials", "difficulty": "Diamond", "shots": 15},
+    {"code": "97B9-5B48-5277-8A85", "name": "Fast Aerial Training", "creator": "Lazord", "skill": "fast_aerials", "difficulty": "Diamond", "shots": 15},
+    {"code": "CEE4-14DF-0F50-1FCE", "name": "Advanced Redirects (1-13)", "creator": "Wayprotein", "skill": "redirects", "difficulty": "Platinum", "shots": 13},
+    {"code": "410E-0170-C52F-E8A0", "name": "Redirect Consistency", "creator": "Wayprotein", "skill": "redirects", "difficulty": "Diamond", "shots": 50},
+    {"code": "E4AE-EDC9-E77E-9FC0", "name": "Ground Shot Consistency", "creator": "Torment", "skill": "shooting", "difficulty": "Gold", "shots": 23},
+    {"code": "9CDC-6325-380F-76AE", "name": "Technical Ground Shots", "creator": "Wayprotein", "skill": "shooting", "difficulty": "Platinum", "shots": 20},
+    {"code": "AD58-5CBF-904B-C02C", "name": "2 Touch Tap n' Shoot", "creator": "Wayprotein", "skill": "shooting", "difficulty": "Platinum", "shots": 12},
+    {"code": "B4EB-C56A-BA9D-5300", "name": "Air Roll Ground Shots", "creator": "Wayprotein", "skill": "shooting", "difficulty": "Diamond", "shots": 24},
+    {"code": "BFD9-B180-9146-5683", "name": "Ground dribble turns", "creator": "rellWRLD", "skill": "dribbling", "difficulty": "Platinum", "shots": 28},
+    {"code": "2258-FBD1-2CAE-0246", "name": "Drift Catch Training", "creator": "King Ranny", "skill": "dribbling", "difficulty": "Diamond", "shots": 12},
+    {"code": "5002-B6E3-16CA-E0FF", "name": "Beginner Fast Recoveries (2026 Features)", "creator": "Wayprotein", "skill": "recoveries", "difficulty": "Gold", "shots": 14},
+    {"code": "C809-86F7-C4BB-F1C1", "name": "Drift & Wave Dash Recovery", "creator": "mcwoody", "skill": "recoveries", "difficulty": "Diamond", "shots": 17},
+    {"code": "A8FA-AFF2-86BE-C051", "name": "Advanced Recoveries", "creator": "8qc0-o_", "skill": "recoveries", "difficulty": "Champion", "shots": 10},
+    {"code": "936E-C293-5DF5-2D5C", "name": "Speed Flip", "creator": "Shazanwich", "skill": "kickoffs", "difficulty": "Diamond", "shots": 16}
+  ]
+}
